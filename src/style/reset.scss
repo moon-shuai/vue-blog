@@ -1,0 +1,81 @@
+/*全局*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body{font-size:16px;-webkit-text-size-adjust:100%;background:#fff;color:#5b6274;}
+html,body,#app,#container{position: relative;}
+html,body,#app{height: 100%;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,i,var,caption{font-style:normal;}
+ul,ol,li{list-style:none;}a,a img,button {cursor:pointer;text-decoration: none}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+img,input,select,button,textarea,fieldset{border:0;}
+a:focus,input:focus,button:focus,select:focus,textarea:focus{outline:none;}
+
+input::-ms-clear,input::-ms-reveal{ display: none;}
+input[required]:invalid,
+input:focus:invalid,
+textarea[required]:invalid,
+textarea:focus:invalid {
+    box-shadow: none;
+}
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+.align-center{text-align: center!important;}
+.align-right{text-align: right!important;}
+.clear{clear:both;height:0;overflow: hidden;margin:0;padding:0;font-size:0}
+.clearfix:after{content:"wq";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+
+/*定位*/
+.p_rel{position:relative;}.p_abs{position:absolute;}
+
+/*颜色*/
+.cBlue{color:#0190d4!important;}
+.cRed{color:#f00!important;}
+.cGreen{color:#58bc5d!important;}
+.cGray{color:#8493aa!important;}
+.bg-blue{background-color:#0190d4!important;}
+.bg-red{background-color:#f00!important;}
+.bg-green{background-color:#58bc5d!important;}
+.bg-gray{background-color:#8493aa!important;}
+
+/*间距*/
+.mlr4{margin-left: 4px;margin-right: 4px;}
+.m10{margin:10px;}
+.mt6{margin-top:6px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml60{margin-left:60px;}
+.mb10{margin-bottom:10px;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+
+.pl5{padding-left: 5px;}
+.pl10{padding-left: 10px;}
+.pl20{padding-left: 20px;}
+
+.pb5{padding-bottom: 5px;}
+.pb10{padding-bottom: 10px;}
+.pt10{padding-top: 10px;}
+.pt20{padding-top: 20px;}
+
+.pr10{padding-right: 10px;}
+
+/*其他*/
+.hide{display:none;}
+.block{display:block;}
+.flex{display:flex;}
+/*
+*/
+.w100{
+    &>div{
+        width: 100%;
+    }
+}
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+}
